@@ -1,0 +1,7 @@
+<p>Helpful Links<br>
+</p>
+<ul>
+<li><a href="https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text/_cq_editConfig.xml" target="_blank">AEM Sites Core Components - Text v2 - Edit Config</a></li>
+<li><a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/rich-text-editor.html#Knownlimitations" target="_blank">Configure the Rich Text Editor</a></li>
+<li><a href="http://adamcin.net/oakpal/oakpal-maven-plugin/writing-a-script-check.html" target="_blank">OakPAL - Writing a Script Check</a></li>
+</ul>

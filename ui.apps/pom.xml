@@ -97,6 +97,7 @@
                             <target>/apps/oakpal-demo/install</target>
                         </embedded>
                     </embeddeds>
+                    <!--
                     <subPackages>
                         <subPackage>
                             <groupId>com.adobe.cq</groupId>
@@ -109,6 +110,7 @@
                             <filter>true</filter>
                         </subPackage>
                     </subPackages>
+                    -->
                 </configuration>
             </plugin>
             <plugin>

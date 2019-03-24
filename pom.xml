@@ -488,6 +488,12 @@
         <dependencies>
             <!-- OSGi Dependencies -->
             <dependency>
+                <groupId>com.adobe.acs</groupId>
+                <artifactId>acs-aem-commons-oakpal-checks</artifactId>
+                <version>4.0.1-SNAPSHOT</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.osgi</groupId>
                 <artifactId>osgi.core</artifactId>
                 <version>6.0.0</version>

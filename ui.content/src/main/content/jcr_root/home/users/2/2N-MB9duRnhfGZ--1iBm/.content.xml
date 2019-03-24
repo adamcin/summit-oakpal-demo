@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+  ~ Copyright 2019 Mark Adamcin
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+          xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="rep:User" jcr:uuid="1b41c13a-b1a7-31b3-98a2-13ac59c1b29c" rep:authorizableId="notanadmin"
+          rep:password="\{SHA-256}87e6560f10f25a7e-1000-ce1b67533cf6fbc6b948032ce399bf626ee9eaed984011a554d4edc66a734027"
+          rep:principalName="notanadmin" selected_profile="profile" userStatus="true"
+          userStatus_x0040_DefaultValue="false" userStatus_x0040_UseDefaultWhenMissing="true">
+    <profile/>
+    <preferences jcr:primaryType="nt:unstructured"
+                 cq.authoring.editor.page.showOnboarding62="false"
+                 granite.shell.showonboarding620="false"/>
+    <profiles jcr:primaryType="nt:unstructured">
+        <public jcr:primaryType="nt:unstructured" sling:resourceType="cq/security/components/profile"/>
+    </profiles>
+    <rep:policy jcr:primaryType="rep:ACL">
+        <allow jcr:primaryType="rep:GrantACE" rep:principalName="notanadmin" rep:privileges="[jcr:all]"/>
+    </rep:policy>
+</jcr:root>

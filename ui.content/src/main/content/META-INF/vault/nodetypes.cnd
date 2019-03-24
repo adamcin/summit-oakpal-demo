@@ -1,0 +1,15 @@
+<'dam'='http://www.day.com/dam/1.0'>
+
+[dam:Thumbnails]
+  mixin
+  + dam:thumbnails (nt:folder)
+
+[dam:AssetContent] > nt:unstructured
+  + metadata (nt:unstructured)
+  + related (nt:unstructured)
+  + renditions (nt:folder)
+
+[dam:Asset] > nt:hierarchyNode
+  primaryitem jcr:content
+  + jcr:content (dam:AssetContent) = dam:AssetContent
+  + * (nt:base) = nt:base version

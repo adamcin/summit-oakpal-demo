@@ -6,5 +6,8 @@
         jcr:title="oakpal-demo">
         <folderThumbnail/>
     </jcr:content>
-    <asset.jpg/>
+    <ContributorDenyConfig.png/>
+    <DenyConfigCloser.png/>
+    <DenyConfigClosest.png/>
+    <helpful-links/>
 </jcr:root>

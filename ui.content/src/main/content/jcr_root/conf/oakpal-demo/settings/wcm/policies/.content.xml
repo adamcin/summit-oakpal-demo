@@ -12,7 +12,7 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="oakpal-demo Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[group:oakpal-demo,/apps/oakpal-demo/components/form/container]"
+                        components="[/libs/dam/cfm/components/contentfragment,group:oakpal-demo,/apps/oakpal-demo/components/form/container]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">

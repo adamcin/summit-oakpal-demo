@@ -9,22 +9,6 @@
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
-            <languagenavigation
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="oakpal-demo/components/content/languagenavigation"
-                navigationRoot="/content/oakpal-demo/"
-                structureDepth="1"/>
-            <search
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="oakpal-demo/components/content/search"
-                searchRoot="/content/oakpal-demo/"/>
-            <navigation
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="oakpal-demo/components/content/navigation"
-                navigationRoot="/content/oakpal-demo/"/>
-            <breadcrumb
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="oakpal-demo/components/content/breadcrumb"/>
             <responsivegrid
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"

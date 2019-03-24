@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+  ~ Copyright 2019 Mark Adamcin
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+          xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="rep:Group" jcr:uuid="3ebb1c04-76dd-317e-a9ee-5164182bc390"
+          rep:authorizableId="content-authors" rep:principalName="content-authors" sling:resourceType="rep:Group"
+          rep:members="[1b41c13a-b1a7-31b3-98a2-13ac59c1b29c]">
+    <profile jcr:primaryType="nt:unstructured" aboutMe="The group responsible for content editing." givenName="Authors"
+             sling:resourceType="cq/security/components/profile"/>
+    <rep:policy jcr:primaryType="rep:ACL">
+        <allow jcr:primaryType="rep:GrantACE" rep:principalName="content-authors" rep:privileges="[jcr:read]"/>
+    </rep:policy>
+</jcr:root>
