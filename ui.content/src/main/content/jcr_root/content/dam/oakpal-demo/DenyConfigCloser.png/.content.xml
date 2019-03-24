@@ -2,17 +2,17 @@
 <jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:mixinTypes="[mix:referenceable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="b360d45d-0fc5-432a-9b48-a95e77d16930">
+    jcr:uuid="7ecb3acc-4f5c-419c-91af-982cfe22d673">
     <jcr:content
         dam:assetState="processed"
         dam:relativePath="oakpal-demo/DenyConfigCloser.png"
-        jcr:lastModified="{Date}2019-03-23T16:34:11.536-07:00"
+        jcr:lastModified="{Date}2019-03-24T13:53:48.290-07:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
-            dam:Comments="XML:com.adobe.xmp: &lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;XMP Core 5.4.0&quot;>&#xa;   &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;      &lt;rdf:Description rdf:about=&quot;&quot;&#xa;            xmlns:exif=&quot;http://ns.adobe.com/exif/1.0/&quot;>&#xa;         &lt;exif:PixelXDimension>578&lt;/exif:PixelXDimension>&#xa;         &lt;exif:PixelYDimension>126&lt;/exif:PixelYDimension>&#xa;      &lt;/rdf:Description>&#xa;   &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&#xa;"
-            dam:extracted="{Date}2019-03-23T16:34:11.364-07:00"
+            dam:Comments="XML:com.adobe.xmp: &lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;XMP Core 5.4.0&quot;>&#xa;   &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;      &lt;rdf:Description rdf:about=&quot;&quot;&#xa;            xmlns:exif=&quot;http://ns.adobe.com/exif/1.0/&quot;>&#xa;         &lt;exif:PixelXDimension>1206&lt;/exif:PixelXDimension>&#xa;         &lt;exif:PixelYDimension>373&lt;/exif:PixelYDimension>&#xa;      &lt;/rdf:Description>&#xa;   &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&#xa;"
+            dam:extracted="{Date}2019-03-24T13:53:47.999-07:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -22,24 +22,15 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="9ef865e08f0a86c13ee2ffb9986511a486acbdee"
-            dam:size="{Long}29366"
+            dam:sha1="b4b11e17013da6b7e1890f187def421e73207673"
+            dam:size="{Long}99077"
             dc:format="image/png"
-            exif:PixelXDimension="{Long}578"
-            exif:PixelYDimension="{Long}126"
+            exif:PixelXDimension="{Long}1206"
+            exif:PixelYDimension="{Long}373"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            tiff:ImageLength="{Long}126"
-            tiff:ImageWidth="{Long}578"/>
+            tiff:ImageLength="{Long}373"
+            tiff:ImageWidth="{Long}1206"/>
         <related jcr:primaryType="nt:unstructured"/>
-        <usages
-            dam:score="{Long}1"
-            jcr:primaryType="nt:unstructured"
-            usedBy="[aem]">
-            <aem
-                jcr:primaryType="nt:unstructured"
-                count="{Long}1"
-                lastUsed="{Date}2019-03-23T16:39:09.686-07:00"/>
-        </usages>
     </jcr:content>
 </jcr:root>
