@@ -27,9 +27,6 @@
                       sling:resourceType="oakpal-demo/components/content/text"
                       text="&lt;p>OakPAL features now in development or planning include:&lt;/p>&#xa;&lt;p>&lt;b>OakPAL Interactive&lt;/b>: A deployment option for running OakPAL scans within AEM itself, with a consistent Touch UI interface. Configurable monitoring and notification tools to setup PackageManager-event-driven alerts, plus an online checklist builder with support for exporting a self-contained format.&lt;/p>&#xa;&lt;p>&lt;b>OakPAL CLI&lt;/b>: Packaging as a command-line executable and docker image would reduce boilerplate and simplify scan configuration in CI applications like Jenkins and Bamboo.&lt;/p>&#xa;"
                       textIsRich="true"/>
-                <contentfragment jcr:primaryType="nt:unstructured"
-                                 sling:resourceType="dam/cfm/components/contentfragment"
-                                 text=""/>
             </responsivegrid>
         </root>
     </jcr:content>
