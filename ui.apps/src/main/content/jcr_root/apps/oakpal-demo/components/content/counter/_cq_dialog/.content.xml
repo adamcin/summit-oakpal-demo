@@ -26,7 +26,7 @@
             <tabs jcr:primaryType="nt:unstructured" maximized="{Boolean}true"
                   sling:resourceType="granite/ui/components/coral/foundation/tabs">
                 <items jcr:primaryType="nt:unstructured">
-                    <config jcr:primaryType="nt:unstructured" jcr:title="Config"
+                    <counterConfig jcr:primaryType="nt:unstructured" jcr:title="Config"
                             sling:resourceType="granite/ui/components/coral/foundation/container">
                         <items jcr:primaryType="nt:unstructured">
                             <columns jcr:primaryType="nt:unstructured"
@@ -46,7 +46,7 @@
                                 </items>
                             </columns>
                         </items>
-                    </config>
+                    </counterConfig>
                 </items>
             </tabs>
         </items>
