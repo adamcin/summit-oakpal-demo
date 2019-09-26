@@ -96,7 +96,7 @@
             <plugin>
                 <groupId>net.adamcin.oakpal</groupId>
                 <artifactId>oakpal-maven-plugin</artifactId>
-                <version>1.2.1</version>
+                <version>${oakpal.version}</version>
                 <executions>
                     <execution>
                         <goals>
@@ -107,7 +107,7 @@
                                 <preInstallArtifact>
                                     <groupId>com.adobe.acs</groupId>
                                     <artifactId>acs-aem-commons-content</artifactId>
-                                    <version>4.0.1-SNAPSHOT</version>
+                                    <version>${acs-commons.version}</version>
                                     <type>zip</type>
                                 </preInstallArtifact>
                             </preInstallArtifacts>
@@ -144,7 +144,7 @@
         <dependency>
             <groupId>com.adobe.acs</groupId>
             <artifactId>acs-aem-commons-content</artifactId>
-            <version>4.0.1-SNAPSHOT</version>
+            <version>${acs-commons.version}</version>
             <type>zip</type>
             <scope>test</scope>
         </dependency>
@@ -159,7 +159,7 @@
         <dependency>
             <groupId>com.adobe.acs</groupId>
             <artifactId>acs-aem-commons-oakpal-checks</artifactId>
-            <version>4.0.1-SNAPSHOT</version>
+            <version>${acs-commons.version}</version>
             <scope>test</scope>
         </dependency>
 

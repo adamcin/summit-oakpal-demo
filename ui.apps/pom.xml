@@ -120,7 +120,7 @@
             <plugin>
                 <groupId>net.adamcin.oakpal</groupId>
                 <artifactId>oakpal-maven-plugin</artifactId>
-                <version>1.2.1</version>
+                <version>${oakpal.version}</version>
                 <executions>
                     <execution>
                         <goals>

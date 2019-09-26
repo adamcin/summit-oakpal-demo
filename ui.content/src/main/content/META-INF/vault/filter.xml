@@ -3,6 +3,6 @@
     <filter root="/conf/oakpal-demo" mode="replace"/>
     <filter root="/content/oakpal-demo" mode="replace"/>
     <filter root="/content/dam/oakpal-demo" mode="replace"/>
-    <filter root="/home/users/2/2N-MB9duRnhfGZ--1iBm" mode="merge"/>
-    <filter root="/home/groups/c/content-authors" mode="merge"/>
+    <filter root="/home/users/2" mode="merge"/>
+    <filter root="/home/groups/c" mode="merge"/>
 </workspaceFilter>
